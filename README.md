@@ -28,10 +28,10 @@ There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Co
 	python run_imagenet.py --gpuid 0,1 --model ResNet152
 ```
 
-## Experimental result:
+## Experimental results:
 
-<img src="https://github.com/YanghaoZYH/GUAP/blob/master/savefig/Cifar10.png" width="50%">
+<img src="https://github.com/YanghaoZYH/GUAP/blob/master/savefig/Cifar10.png" width="70%">
 
-<img src="https://github.com/YanghaoZYH/GUAP/blob/master/savefig/ImageNet.png" width="50%">
+<img src="https://github.com/YanghaoZYH/GUAP/blob/master/savefig/ImageNet.png" width="72%">
 
 
