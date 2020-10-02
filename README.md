@@ -26,11 +26,11 @@ There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Co
 	python run_imagenet.py --gpuid 0,1 --model ResNet152
 ```
 
-You can get similar result
+## Experimental result:
 
-![<img src="/savefig/Cifar10.png" width="100"/>](/savefig/Cifar10.png "Cifar10")
+![<img src="/savefig/Cifar10.png" width="50%"/>](/savefig/Cifar10.png "Cifar10")
 
-![<img src="/savefig/ImageNet.png" width="100"/>](/savefig/ImageNet.png "ImageNet")
+![<img src="/savefig/ImageNet.png" width="50%"/>](/savefig/ImageNet.png "ImageNet")
 
 
 Please cite Yanghao Zhang, Wenjie Ruan, Fu Wang, and Xiaowei Huang, Generalizing Universal Adversarial Attacks Beyond Additive Perturbations, The IEEE International Conference on Data Mining (ICDM 2020), November 17-20, 2020, Sorrento, Italy
