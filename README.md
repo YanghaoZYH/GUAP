@@ -27,6 +27,7 @@ There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Co
 ```
 
 You can get similar result
+
 ![Cifar10](/savefig/Cifar10.png "Cifar10")
 
 ![ImageNet](/savefig/ImageNet.png "ImageNet")
