@@ -28,9 +28,9 @@ There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Co
 
 You can get similar result
 
-![<img src="/savefig/Cifar10.png" width="250"/>](/savefig/Cifar10.png "Cifar10")
+![<img src="/savefig/Cifar10.png" width="100"/>](/savefig/Cifar10.png "Cifar10")
 
-![<img src="/savefig/ImageNet.png" width="250"/>](/savefig/ImageNet.png "ImageNet")
+![<img src="/savefig/ImageNet.png" width="100"/>](/savefig/ImageNet.png "ImageNet")
 
 
 Please cite Yanghao Zhang, Wenjie Ruan, Fu Wang, and Xiaowei Huang, Generalizing Universal Adversarial Attacks Beyond Additive Perturbations, The IEEE International Conference on Data Mining (ICDM 2020), November 17-20, 2020, Sorrento, Italy
