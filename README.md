@@ -1,6 +1,6 @@
 # GUAP
 
-Code for paper 'Generalizing Universal Adversarial Attacks Beyond Additive Perturbations' accepted by [ICDM 2020](http://icdm2020.bigke.org/).
+Code for paper '[Generalizing Universal Adversarial Attacks Beyond Additive Perturbations](https://arxiv.org/pdf/2010.07788.pdf)' accepted by [ICDM 2020](http://icdm2020.bigke.org/).
 
 Please cite Yanghao Zhang, Wenjie Ruan, Fu Wang, and Xiaowei Huang, Generalizing Universal Adversarial Attacks Beyond Additive Perturbations, The IEEE International Conference on Data Mining (ICDM 2020), November 17-20, 2020, Sorrento, Italy
 
