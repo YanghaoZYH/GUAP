@@ -35,3 +35,5 @@ There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Co
 <img src="https://github.com/YanghaoZYH/GUAP/blob/master/savefig/ImageNet.png" width="71%">
 
 
+## GUAP Demonstration
+Available at http://guap.yanghaozhang.com/
