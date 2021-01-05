@@ -1,6 +1,6 @@
 # GUAP
 
-Code for paper '[Generalizing Universal Adversarial Attacks Beyond Additive Perturbations](https://arxiv.org/pdf/2010.07788.pdf)' accepted by [ICDM 2020](http://icdm2020.bigke.org/).
+Tool for generating spatial-transfermed or additive universarial perturbations, the paper '[Generalizing Universal Adversarial Attacks Beyond Additive Perturbations](https://arxiv.org/pdf/2010.07788.pdf)' was accepted by [ICDM 2020](http://icdm2020.bigke.org/).
 
 Please cite Yanghao Zhang, Wenjie Ruan, Fu Wang, and Xiaowei Huang, Generalizing Universal Adversarial Attacks Beyond Additive Perturbations, The IEEE International Conference on Data Mining (ICDM 2020), November 17-20, 2020, Sorrento, Italy
 
@@ -11,16 +11,28 @@ In this paper, for the first time we propose a unified and flexible framework, w
 Specifically, GUAP can generate either additive (i.e., l_inf-bounded) or non-additive (i.e., spatial transformation) perturbations, or a combination of both, which considerably generalizes the attacking capability of current universal attack methods.
 
 
+## Colab demo:
+
+There is also a notebook demo [```Colab_GUAP.ipynb```](https://nbviewer.jupyter.org/github/YanghaoZYH/GUAP/blob/master/Colab_GUAP.ipynb), which can be run on the Colab.
+
+
 ## Running environment:
 
 ```
 pip install torch torchvision matplotlib
 ```
 
-## Colab demo:
+## Download target Models
+```
+cd saved_models
+wget -O cifar10_vgg19.pth https://www.dropbox.com/s/qkl5224tbo9flvg/cifar10_vgg19.pth?dl=0
+wget -O cifar10_resnet101.pth https://www.dropbox.com/s/1x8yj9u7f8zlff6/cifar10_resnet101.pth?dl=0
+wget -O cifar10_dense121.pth https://www.dropbox.com/s/pbq408117fd7935/cifar10_dense121.pth?dl=0
+wget -O fashion_mnist_modela.pth https://www.dropbox.com/s/otjg9tusqogxodf/fashion_mnist_modela.pth?dl=0
+cd ..
+```
 
-There is also a notebook demo ```Colab_GUAP.ipynb```, which can be run on the Colab.
-
+## Command to Run 
 ```
 usage: run_fashion_mnist.py [-h] [--dataset DATASET] [--lr LR]
                             [--batch-size BATCH_SIZE] [--epochs EPOCHS]
@@ -46,6 +58,11 @@ optional arguments:
   --cuda                enables cuda
   --resume              load pretrained model
   --outdir OUTDIR       output dir
+```
+
+## Generalizing UAP for Fashion_MNIST:
+```
+python run_fashion_mnist.py --cuda --gpuid 0 --resume
 ```
 
 ## Generalizing UAP for Cifar10:
